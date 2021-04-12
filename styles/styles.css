@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+	background-color:#7ED7FF;
+	font-family:Montserrat;
+	box-sizing:border-box;
+	margin:0;
+}
+.head {
+	background-color:white;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+	border-radius:20px;
+	min-width:164px;
+	font-weight: bold;
+	grid-row:2/3;
+	grid-column: 1/7;
+	height:100%;
+	display:flex;
+}
+
+
+.product {
+	margin:20px 20px 20px 20px;
+	font-size:15px;
+	display:grid;
+	grid-template-columns: 124px 50px 50px 50px 50px 50px;
+	grid-column-gap: 20px;
+}
+.product:last-child{
+	padding-right:20px;
+}
+.volume{
+}
+
+.hero {
+	background-color:white;
+	border-radius:20px;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+	height:200px;
+	grid-column: 2/7;
+	display: grid;
+	grid-template-columns: 180px 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px;
+	padding:20px;
+	overflow:hidden;
+}
+
+.heroImage {
+	height:37%;
+	display:flex;
+	justify-content: space-around;
+}
+
+
+
+
+.kolom {
+	width:68px;
+	text-align: right;
+}
+
+.kolomNone{
+	width:68px;
+	text-align:right;
+	background-image:url("../images/cross.png");
+	background-size:25%;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 35px;
+	height:60px;
+}
+
+
+.logo {
+    border-radius:20px;
+	height:60px;
+	width:124px;
+}
+.gallengall {
+	background-image: url("../images/gallengall.png");
+	background-size:200%;
+	background-repeat: no-repeat;
+	background-color:#52545A;
+	background-position-x: -82px;
+	background-position-y: -52px;
+}
+.hoogvliet {
+	background-image: url("../images/hoogvliet.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position-y: 10px;
+	background-color:#01B1EC;
+}
+.dirk {
+	background-image:url("../images/dirklogo.png");
+	background-size:contain;
+	background-color:#ED1B24;
+}
+.coop {
+	background-image:url("../images/cooplogo.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-color:#F77F00;
+}
+.ah {
+	background-image:url("../images/ah logo.jpg");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-color:#0099DC;
+}
+.grid {
+	margin:20px;
+}
+.insideGrid {
+	
+}
+.prijzen {
+	background-color:lightgray;
+	text-align: center;
+	display:flex;
+	align-items: center ;
+	
+	grid-column: 2/3;
+}
+
+.prijzen div {
+	display:inline;
+}
+.prijzen div span {
+	display: block;
+}
+
+
+.kortingsPrijs {
+	color:#FF6D01;
+}
+.bonusPrijs {
+	color:#34A853;
+}
+
+.winkel:last-child{
+	display:none;
+}
+
+table {
+	background-color:white;
+	box-shadow: 0px 3px 6px 0 rgba(0,0,0,0.2);
+	border-radius:20px;
+	width:100%;
+	text-align: center;
+	font-weight: bold;
+	overflow:auto;
+	display: block;
+}
+
+th {
+	padding:20px;
+}
+th img {
+	height:200px;
+}
+tr td {
+	padding:0 20px 0 20px;
+}
+.winkel {
+	padding:20px;
+}
+.store {
+	padding:0 0 0 20px;
+	position: sticky;
+}
+.unavailable {
+	background-image: url("../images/cross.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:rgba(255,255,2550,0);
+}
+.empty {
+	background-color:white;
+	color:rgba(0,0,0,0);
+}
