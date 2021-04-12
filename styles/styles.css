@@ -167,14 +167,14 @@ tr td {
 }
 .store {
 	padding:0 0 0 20px;
-	position: sticky;
+	position: relative;
 }
 .unavailable {
 	background-image: url("../images/cross.png");
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	color:rgba(255,255,2550,0);
+	color:rgba(255,255,255,0);
 }
 .empty {
 	background-color:white;
